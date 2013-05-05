@@ -199,7 +199,7 @@ int vibetonz_clk_off(struct device *dev)
 
 int init_module(void)
 {
-    int nRet, i;   /* initialized below */
+	int nRet, i;   /* initialized below */
 
 	nRet = 0;
 
