@@ -59,7 +59,6 @@ obj-$(CONFIG_SAMSUNG_FM_SI4709)		+= fm_si4709/
 obj-$(CONFIG_TEGRA_CRYPTO_DEV)	+= tegra-cryptodev.o
 obj-$(CONFIG_TEGRA_BB_SUPPORT)	+= tegra-baseband/
 obj-$(CONFIG_MAX1749_VIBRATOR)	+= max1749.o
-obj-$(CONFIG_FSA9480)       += fsa9480.o
 obj-$(CONFIG_SEC_MISC)      += sec_misc.o
 obj-$(CONFIG_SEC_MODEM)     += modem_if/
 obj-$(CONFIG_VIBTONZ)       += vibetonz/
