@@ -35,7 +35,7 @@ modules.builtin
 *.gcno
 boot.img
 zImage
-ButterKernel.zip
+out/ButterKernel/*.zip
 
 #
 # Top-level generic files
