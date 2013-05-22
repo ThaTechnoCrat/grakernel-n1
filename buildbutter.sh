@@ -22,11 +22,11 @@ echo -e "  2: Linaro 4.8.1 13.04"
 read toolchain
 
 if [ "$toolchain" == "1" ]; then
-        export CROSS_COMPILE=${tcf}linaro-4.7-13.04/bin/arm-linux-androideabi-
+        export CROSS_COMPILE=${tcf}linaro-4.7-13.04/bin/arm-eabi-
 fi
 
 if [ "$toolchain" == "2" ]; then
-        export CROSS_COMPILE=${tcf}linaro-4.8-13.04/bin/arm-linux-androideabi-
+        export CROSS_COMPILE=${tcf}linaro-4.8-13.04/bin/arm-eabi-
 fi
 
 echo -e "${bldcya} Cleaning .... ${txtrst}"
